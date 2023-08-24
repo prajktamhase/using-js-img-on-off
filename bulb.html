@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulb</title>
+</head>
+
+<body>
+  <img src="./img/off.png" id="bulb" height="400px" /><br /><br /><br /><br />
+  <button type="button" onclick="btn1()">Button1</button>
+  <button type="button" onclick="btn2()">Button2</button>
+
+   <script>
+    function  btn1(){
+    const bulbElement=document.getElementById('bulb')
+    bulbElement.src="./img/off.png";
+   }
+
+
+
+   function btn2(){
+    const bulbElement=document.getElementById('bulb')
+    bulbElement.src="./img/on.png";
+
+   }
+   
+  </script>
+
+</body>
+
+</html>
